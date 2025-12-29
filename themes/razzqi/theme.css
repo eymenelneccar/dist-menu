@@ -1,0 +1,30 @@
+:root{
+  --brand-base:#2C1810;
+  --brand-gold:#C5A059;
+  --bg-main:#FDFBF7;
+  --bg-surface:#FFFFFF;
+  --text-main:#1F2937;
+  --text-heading:#0F172A;
+  --border-color:#E5E7EB;
+  --shadow-color:rgba(0, 0, 0, 0.06);
+  --brand-text:var(--bg-main);
+}
+body{font-family:'Cairo',sans-serif;background-color:var(--bg-main);color:var(--text-main);-webkit-tap-highlight-color:transparent}
+.hero-clip{clip-path:ellipse(85% 60% at 50% 0%)}
+.geometric-pattern{background-color:var(--brand-base);background-image:radial-gradient(50% 60% at 30% 50%,color-mix(in oklab,var(--brand-gold),white 18%) 0%,transparent 60%),linear-gradient(120deg,color-mix(in oklab,var(--brand-gold),transparent 92%) 0%,rgba(255,255,255,0) 55%),linear-gradient(200deg,rgba(24,24,27,.25),rgba(24,24,27,0))}
+.glass-panel{background:color-mix(in oklab,var(--bg-surface),transparent 25%);backdrop-filter:blur(10px);border:1px solid color-mix(in oklab,var(--border-color),transparent 35%);border-radius:16px;box-shadow:0 12px 24px -12px var(--shadow-color)}
+.accordion-content{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.accordion-content.open{max-height:999px}
+.accordion-inner{overflow:hidden;border-radius:16px}
+.text-brand-gold{color:var(--brand-gold)}
+.bg-brand-base{background-color:var(--brand-base)}
+.border-brand-gold{border-color:var(--brand-gold)}
+.bg-white{background-color:var(--bg-surface)!important}
+.bg-\[\#eee\]{background-color:color-mix(in oklab,var(--bg-surface),black 8%)!important}
+.text-\[\#331A12\]{color:var(--text-heading)!important}
+.text-\[\#331A12\]\/60{color:color-mix(in oklab,var(--text-heading),transparent 40%)!important}
+.text-\[\#331A12\]\/70{color:color-mix(in oklab,var(--text-heading),transparent 30%)!important}
+.text-\[\#331A12\]\/80{color:color-mix(in oklab,var(--text-heading),transparent 20%)!important}
+.border-\[\#331A12\]\/10{border-color:color-mix(in oklab,var(--border-color),transparent 90%)!important}
+.border-\[\#331A12\]\/15{border-color:color-mix(in oklab,var(--border-color),transparent 85%)!important}
+.border-\[\#331A12\]\/20{border-color:color-mix(in oklab,var(--border-color),transparent 80%)!important}

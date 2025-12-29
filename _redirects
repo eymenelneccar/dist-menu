@@ -1,0 +1,11 @@
+/index                 /index.html                200
+/themes/alkalha/index  /themes/alkalha/home.html  200
+/themes/alkalha/home   /themes/alkalha/home.html  200
+/themes/alkalha/products /themes/alkalha/products.html 200
+/themes/alkalha/product  /themes/alkalha/product.html  200
+/themes/alkalha/cart     /themes/alkalha/cart.html     200
+/themes/alkalha/checkout /themes/alkalha/checkout.html 200
+/themes/alkalha/brunch   /themes/alkalha/brunch.html   200
+/:slug               /index.html       200
+/*                    /index.html                200
+/themes/romer/index      /themes/romer/index.html      200
